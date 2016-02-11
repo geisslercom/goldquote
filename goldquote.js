@@ -16,7 +16,7 @@ function goldquote(done){
       var regGold = /.*\ ([0-9]{1,4}\.\d{2})\ \ Euro/ig
 		  var result = regGold.exec(a);
       if (result) {
-        done({ounce: parseFloat(result[1]), gramm: parseFloat(result[1]/28.3495) });
+        done({ounce: parseFloat(result[1]), gramm: parseFloat(result[1]/31.1034768) });
 		  }else{
         done(null)
       }
