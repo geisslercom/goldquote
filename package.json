@@ -4,14 +4,14 @@
   "description": "current price of gold",
   "main": "goldquote.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./test/goldquote.test.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/litzenberger/goldquote.git"
   },
   "keywords": [
-    "bitcoin",
+    "gold",
     "price"
   ],
   "author": "ron litzenberger (@litzenberger)",
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/litzenberger/goldquote",
   "dependencies": {
-    "request": "^2.34.0",
-    "cheerio": "^0.13.1"
+    "cheerio": "^0.13.1",
+    "request": "^2.72.0"
   }
 }
